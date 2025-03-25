@@ -9,10 +9,16 @@
             "email": "marius.balcytis@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Angel94/twig-template-modification-bundle.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.2",
         "maba/webpack-bundle": "*",
-        "maba/twig-template-modification-bundle": "*",
+        "angel94/twig-template-modification-bundle.git": "*",
         "symfony/assetic-bundle": "^2.6",
         "symfony/framework-bundle": "^2.6||^3"
     },
